@@ -1,5 +1,5 @@
 # NuclearReactor
-Nuclear reactor modeling (fuel consumption and reactor power)
+Nuclear reactor modeling (fuel consumption and reactor power) on MATLAB
 
 This live editor script in MATLAB models fuel consumption and reactor power by a few parameters. This models depends mainly on :
 - Efficiancy of the reactor
