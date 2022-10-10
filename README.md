@@ -9,7 +9,7 @@ This live editor script in MATLAB models fuel consumption and reactor power depe
 - Neutron flux
 - Cycle time of fuel in reactor
 
-The models take into account :
+The models takes into account :
 - Criticality of the reactor (k=1). It means that neutrons flux are always constant so that nuclear fuel sustains a fission chain reaction
 - Energy groups : To simplify computations, the model splits some parameters into 3 differents energy groups (thermal, resonance and fast). It uses the multi-group diffusion theory.
 - Thermal expansion of the moderator
