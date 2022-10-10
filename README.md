@@ -27,7 +27,7 @@ U238+n -> Pu239
                                           +n -> Ma ...                                        
 For fission reaction, all isotopes release 2 fissions products and some neutrons
 
-However, the model doens't take account :
+However, the model doens't take into account :
 - The shape and geometry of the reactor core. So neutron flux are constant in time but also in space
 - The neutrons leakage
 - Some neutron poisons like isotopes like Xenon 135
