@@ -1,7 +1,7 @@
 # NuclearReactor
 Nuclear reactor modeling (fuel consumption and reactor power) on MATLAB
 
-This live editor script in MATLAB models fuel consumption and reactor power by a few parameters. This models depends mainly on :
+This live editor script in MATLAB models fuel consumption and reactor power depending on a few parameters. This models depends mainly on :
 - Efficiancy of the reactor
 - UOX or/and MOX fuel with enrichments and mass of fuel
 - Volume, temperature and pressure in the reactor core
@@ -16,10 +16,19 @@ The models take into account diffents physics phenomenons like :
 - Control roads to absorb the excess of neutrons
 - Neutron sources to give extra neutrons
 - Fission, absorption and scattering
+- Simplification of the nuclear chain reaction : 
+U235+n -> U236                                           }    
+U238+n -> Pu239                                          }
+          +n   -> Pu240                                  }
+                  +n   -> Pu241                          }  Capture reaction
+                          +n   -> Pu242                  }
+                                  +n   -> Ma             }
+                                          +n -> Ma ...   }
+After fission reaction, all isotopes release 2 fissions products and some neutrons
 
 More precisely, the model computes and show (by plotting) depending on time :
-- Volume of fuel, moderator and control roads
-- Fuel consumption (with production of fission products and minor actinide)
-- Fission reactions rate
-- Burnup
-- Thermal and electrical power of the reactor
+- Volume of fuel, moderator and control roads. The sum of this volumes have to be lower than the core reactor volume, otherwise the model is not good...
+- Fuel consumption (with production of fission products and minor actinide). It permits to see the exact composition of the fuel at any moment.
+- Fission reactions rate. It allows to compare fissions reaction rate of all isotopes.
+- Burnup. This is the thermal energy produced by unity of initial fuel mass.
+- Thermal and electrical power of the reactor.
