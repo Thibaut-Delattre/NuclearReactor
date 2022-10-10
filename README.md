@@ -1,11 +1,11 @@
 # NuclearReactor
-Homogeneous Nuclear reactor modeling (fuel consumption and reactor power) on MATLAB
+Thermal homogeneous nuclear reactor modeling (fuel consumption and reactor power) on MATLAB
 
-This live editor script in MATLAB models fuel consumption and reactor power depending on a few parameters in a homogeneous nuclear reactor. This model depends mainly on :
+This live editor script in MATLAB models fuel consumption and reactor power depending on a few parameters in a thermal homogeneous nuclear reactor. This model depends mainly on :
 - Efficiency of the reactor
 - UOX or/and MOX fuel, enrichments and mass of fuel
 - Volume, temperature and pressure in the reactor core
-- Moderator
+- Moderator (light water, heavy water, graphite...)
 - Neutron flux
 - Cycle time of fuel in reactor
 
@@ -40,4 +40,6 @@ More precisely, the model computes and show (by plotting) depending on time :
 - Burnup. This is the thermal energy produced per unit of initial fuel mass.
 - Thermal and electrical power of the reactor.
 
-To get this results, I had to solve multi-group diffusion equation for a homogeneous nuclear reactor, to solve differencial equations of the rate of change of isotopes density...
+To get this results, I had to solve multi-group diffusion equation for a homogeneous nuclear reactor and to solve differencial equations of the rate of change of isotopes density. All parameters allowed me to get numerical values of coefficients of previous equations.
+
+This model is available for thermal reactor like PWR, BWR, PHWR... but is less accurate for fast reactor.
