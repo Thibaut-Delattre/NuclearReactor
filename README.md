@@ -16,7 +16,8 @@ The models take into account diffents physics phenomenons like :
 - Control roads to absorb the excess of neutrons
 - Neutron sources to give extra neutrons
 - Fission, absorption and scattering
-- Simplification of the nuclear chain reaction : 
+- Simplification of the nuclear chain reaction :                                                                        
+For capture reactions,                                                 
 U235+n -> U236                                                                                              
 U238+n -> Pu239                                                                                  
           +n   -> Pu240                                                                        
@@ -24,7 +25,7 @@ U238+n -> Pu239
                           +n   -> Pu242                                                       
                                   +n   -> Ma                                                 
                                           +n -> Ma ...                                        
-After fission reaction, all isotopes release 2 fissions products and some neutrons
+For fission reaction, all isotopes release 2 fissions products and some neutrons
 
 More precisely, the model computes and show (by plotting) depending on time :
 - Volume of fuel, moderator and control roads. The sum of this volumes have to be lower than the core reactor volume, otherwise the model is not good...
