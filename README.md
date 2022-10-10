@@ -31,5 +31,5 @@ More precisely, the model computes and show (by plotting) depending on time :
 - Volume of fuel, moderator and control roads. The sum of this volumes have to be lower than the core reactor volume, otherwise the model is not good...
 - Fuel consumption (with production of fission products and minor actinide). It permits to see the exact composition of the fuel at any moment.
 - Fission reactions rate. It allows to compare fissions reaction rate of all isotopes.
-- Burnup. This is the thermal energy produced by unity of initial fuel mass.
+- Burnup. This is the thermal energy produced per unit of initial fuel mass.
 - Thermal and electrical power of the reactor.
