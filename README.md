@@ -40,6 +40,6 @@ More precisely, the model computes and show (by plotting) depending on time :
 - Burnup. This is the thermal energy produced per unit of initial fuel mass.
 - Thermal and electrical power of the reactor.
 
-To get this results, I had to solve multi-group diffusion equation for a homogeneous nuclear reactor and to solve differencial equations of the rate of change of isotopes density. All parameters allowed me to get numerical values of coefficients of previous equations.
+To get this results, I had to solve multi-group diffusion equation for a homogeneous nuclear reactor and to solve differencial equations of the rate of change of isotopes density.
 
 This model is available for thermal reactor like PWR, BWR, PHWR... but is less accurate for fast reactor.
