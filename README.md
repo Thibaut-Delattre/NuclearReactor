@@ -17,13 +17,13 @@ The models take into account diffents physics phenomenons like :
 - Neutron sources to give extra neutrons
 - Fission, absorption and scattering
 - Simplification of the nuclear chain reaction : 
-U235+n -> U236                                           }    
-U238+n -> Pu239                                          }
-          +n   -> Pu240                                  }
-                  +n   -> Pu241                          }  Capture reaction
-                          +n   -> Pu242                  }
-                                  +n   -> Ma             }
-                                          +n -> Ma ...   }
+U235+n -> U236                                                                                              
+U238+n -> Pu239                                                                                  
+          +n   -> Pu240                                                                        
+                  +n   -> Pu241                                                                        
+                          +n   -> Pu242                                                       
+                                  +n   -> Ma                                                 
+                                          +n -> Ma ...                                        
 After fission reaction, all isotopes release 2 fissions products and some neutrons
 
 More precisely, the model computes and show (by plotting) depending on time :
