@@ -1,7 +1,7 @@
 # NuclearReactor
-Thermal homogeneous nuclear reactor modeling (fuel consumption and reactor power) on MATLAB
+Thermal homogeneous nuclear reactor modeling for one fuel cycle time (fuel consumption and reactor power) on MATLAB
 
-This live editor script in MATLAB models fuel consumption and reactor power depending on a few parameters in a thermal homogeneous nuclear reactor. This model depends mainly on :
+This live editor script in MATLAB models fuel consumption and reactor power for one fuel cycle time in a thermal homogeneous nuclear reactor. This model depends mainly on :
 - Efficiency of the reactor
 - UOX or/and MOX fuel, enrichments and mass of fuel
 - Volume, temperature and pressure in the reactor core
